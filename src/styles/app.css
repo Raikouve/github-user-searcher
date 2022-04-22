@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: rgb(240, 243, 247);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+body section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+section .searchContainer {
+  display: flex;
+}
+
+h1 {
+  color: rgb(31, 31, 31);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+section .searchContainer section {
+  margin-right: 0.6em;
+  width: 12em;
+}
+
+button {
+  height: 4em;
+  width: 6em;
+}

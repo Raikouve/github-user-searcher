@@ -1,0 +1,15 @@
+.displaySection {
+  background-color: rgb(232, 240, 254);
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 0.6em;
+  padding: 1em;
+}
+
+.displaySection div {
+  display: flex;
+  margin-bottom: 0.6em;
+}
+
+.displaySection div h2 {
+  margin-left: 0.6em;
+}
